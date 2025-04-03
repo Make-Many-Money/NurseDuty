@@ -1,8 +1,8 @@
-package com.example.nurseduty;
+package org.example;
 
 import java.util.*;
 
-public class Duty {
+public class Main {
     public static Map<String, List<Integer>> filterShiftCandidates(
             Map<Integer, List<String>> nurseAvailability,
             Map<Integer, List<String>> last5DaysShifts
